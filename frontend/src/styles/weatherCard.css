@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Fjalla One", sans-serif;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+  /* width: 100%; */
+  min-width: 600px;
+  /* height: 300px; */
+  /* padding: 30px; */
+  margin: 20px ;
+  /* background: white; */
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.card .weather-logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  /* margin: 65px 0px 0px 10px; */
+  background: #f1c40f;
+  border-radius: 300px;
+}
+.weather-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card .location {
+  float: left;
+  /* margin: 50px 0px 0px 20px; */
+  font-size: 20px;
+  color: #149292;
+}
+
+.card-date-time {
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 55px; */
+}
+
+.border-line {
+  margin-left: 20px;
+  border-right: 1px solid #000;
+}
+.card .location:hover {
+  color: #1b2631;
+}
+
+.temp {
+  color: #000000;
+  font-size: 30px;
+  margin: 0px;
+  padding: 10px;
+  position: relative;
+}
+
+p {
+  color: #979a9a;
+  opacity: 0.4;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+p:hover {
+  opacity: 1;
+}
+
+.list-item {
+  min-width: 100px;
+    min-height: 65px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 9px;
+
+}

@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  margin: 5%;
+}
+
+.AppContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button {
+  height: 83px;
+  align-items: center;
+  font-size: 30px;
+  color: cornflowerblue;
+  font-family: Ubuntu;
+}
+
+.Loader {
+  margin: 30px;
+  font-size: 30px;
+  color: white;
+}
